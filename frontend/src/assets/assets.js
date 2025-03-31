@@ -1,5 +1,4 @@
 import basket_icon from './basket_icon.png'
-import logo from './logo.png'
 import Logo2 from './Logo2.png'
 import PURBLE from './PURBLE.png'
 import header_img from './header_img.png'
