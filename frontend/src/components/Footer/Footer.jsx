@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.PURBLE} alt="" />
+            <img src={assets.PURBLE} className='purble-logo' alt="" />
             <p>Thank you for choosing Purble – where every bite is a flavor adventure. Our passion for great food, warm service, and unforgettable experiences brings you a dining experience like no other. We look forward to serving you again soon and making every meal memorable!</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
@@ -28,12 +28,12 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+1-212-456-7890</li>
-                <li>contact@tomato.com</li>
+                <li>contact@Purble.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © Purble.com - All Right Reserved.</p>
     </div>
   )
 }
